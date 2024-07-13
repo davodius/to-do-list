@@ -36,7 +36,7 @@ function ToDoList() {
         <input
           type="text"
           placeholder="Enter a task..."
-          value={newtask}
+          value={newTask}
           onChange={handleInputchange}
         />
         <button className="add-button" onClick={addTask}>
